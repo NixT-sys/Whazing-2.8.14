@@ -119,7 +119,7 @@ system_unzip_whazing() {
   sleep 2
 
   sudo su - deploy <<EOF
-  git clone https://github.com/NixT-sys/Whazing-SaaS.git /home/deploy/whazing
+  git clone https://github.com/NixT-sys/Whazing-2.8.14 /home/deploy/whazing
   cd /home/deploy/whazing
   unzip -o whazing.zip
   chmod 775 /home/deploy/whazing/ -Rf
