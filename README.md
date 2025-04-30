@@ -80,13 +80,14 @@ apt install git
 cd /root
 ```
 ```bash
-git clone https://github.com/cleitonme/Whazing-SaaS.instalador.git whazinginstalador
+git clone https://github.com/NixT-sys/Whazing-2.8.14
 ```
 ```bash
-sudo chmod +x ./whazinginstalador/whazing
+cd Whazing-2.8.14
+sudo chmod +x ./whazing
 ```
 ```bash
-cd ./whazinginstalador
+./whazing
 ```
 
 ## Importante alterar senhas padrão para evitar ataques
